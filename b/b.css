@@ -217,9 +217,9 @@ ul, ol { list-style: none; }
   :root { --hdr: 70px; }
   .top__in { font-size: 12.5px; gap: 10px; overflow-x: auto; white-space: nowrap; }
   .hero__in, .about__in, .method__in, .contact__in { grid-template-columns: 1fr; }
-  .hero__panel { order: -1; min-height: 58vw; }
-  .bm { width: 46%; }
-  .hero__en { bottom: 16px; font-size: 13px; }
+  .hero__panel { order: -1; min-height: 0; padding: 38px 20px 28px; }
+  .bm { width: min(44%, 220px); }
+  .hero__en { position: static; margin-top: 22px; font-size: 13px; }   /* تحت العلامة لا فوقها */
   .method__head { position: static; }
   .row__btn { grid-template-columns: 54px 1fr 40px; gap: 16px; padding: 24px 0; }
   .row__c { display: none; }
